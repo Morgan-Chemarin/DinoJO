@@ -22,8 +22,7 @@ let img;
 
 function preload() {
 
-    this.img = loadImage("./dinosaur-spritemodif.png");
-    // this.img = loadImage("https://diegoal3mx.github.io/Dinosaur-Game-P5js/imgs/dinosaur-sprite.png");
+    this.img = loadImage("./dinosaur.png");
     this.game.sprite = this.img;
 }
 
